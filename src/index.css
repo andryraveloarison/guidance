@@ -1,0 +1,21 @@
+/* src/index.css */
+@import "tailwindcss";
+
+
+/* Scrollbar track (fond) */
+::-webkit-scrollbar {
+    width: 5px; /* largeur scrollbar */
+    height: 2px; /* hauteur scrollbar horizontale si besoin */
+  }
+  
+  /* Scrollbar thumb (partie que l'on fait glisser) */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(214, 214, 214, 0.671); /* couleur violet/indigo par exemple */
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar track background */
+  ::-webkit-scrollbar-track {
+    background: rgba(180, 180, 180, 0); /* fond plus sombre */
+    margin-bottom: 18px;
+  }
